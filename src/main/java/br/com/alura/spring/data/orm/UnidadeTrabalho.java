@@ -53,5 +53,12 @@ public class UnidadeTrabalho {
 	public void setFuncionarios(List<Funcionario> funcionarios) {
 		this.funcionarios = funcionarios;
 	}
+	
+    @Override
+    public String toString() {
+        return "Unidades: " + "id:" + id +
+                "| descricao:" + descricao +
+                "| endereco:" + endereco;
+    }
 
 }

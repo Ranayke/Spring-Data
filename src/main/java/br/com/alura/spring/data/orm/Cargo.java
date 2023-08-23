@@ -28,14 +28,6 @@ public class Cargo {
 		this.id = id;
 	}
 
-	public List<Funcionario> getFuncionario() {
-		return funcionario;
-	}
-
-	public void setFuncionario(List<Funcionario> funcionario) {
-		this.funcionario = funcionario;
-	}
-
 	public String getDescricao() {
 		return descricao;
 	}
