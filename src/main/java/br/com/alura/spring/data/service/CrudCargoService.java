@@ -54,7 +54,7 @@ public class CrudCargoService {
 	}
 	
 	private void salvar(Scanner scanner) {
-		System.out.println("Descrição do cargo:");
+		System.out.println("Descrição do cargo");
 		String descricao = scanner.next();
 		Cargo cargo = new Cargo();
 		cargo.setDescricao(descricao);
